@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createSignedFetcher = void 0;
-const signature_v4_1 = require("@aws-sdk/signature-v4");
+const signature_v4_1 = require("@smithy/signature-v4");
 const credential_provider_node_1 = require("@aws-sdk/credential-provider-node");
-const protocol_http_1 = require("@aws-sdk/protocol-http");
+const protocol_http_1 = require("@smithy/protocol-http");
 const sha256_js_1 = require("@aws-crypto/sha256-js");
 const get_fetch_1 = require("./get-fetch");
 const get_headers_1 = require("./get-headers");

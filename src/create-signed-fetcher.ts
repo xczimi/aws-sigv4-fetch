@@ -1,10 +1,10 @@
-import { SignatureV4 } from '@aws-sdk/signature-v4';
+import { SignatureV4 } from '@smithy/signature-v4';
 import { defaultProvider } from '@aws-sdk/credential-provider-node';
-import { HttpRequest } from '@aws-sdk/protocol-http';
+import { HttpRequest } from '@smithy/protocol-http';
 import { Sha256 } from '@aws-crypto/sha256-js';
 // import fetch, { Headers } from 'cross-fetch';
 // import { Credentials, Provider, QueryParameterBag } from "@aws-sdk/types";
-import { parseQueryString } from '@aws-sdk/querystring-parser';
+import { parseQueryString } from '@smithy/querystring-parser';
 import { getFetchFn } from './get-fetch';
 import { CreateSignedFetcher, SignedFetcherOptions } from './types';
 import { getHeaders } from './get-headers';

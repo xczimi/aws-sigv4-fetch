@@ -29,13 +29,13 @@
   },
   "homepage": "https://github.com/zirkelc/aws-sigv4-fetch#readme",
   "dependencies": {
-    "@aws-crypto/sha256-js": "^4.0.0",
-    "@aws-sdk/client-cognito-identity-provider": "^3.359.0",
-    "@aws-sdk/credential-provider-node": "^3.358.0",
-    "@aws-sdk/protocol-http": "^3.357.0",
-    "@aws-sdk/querystring-parser": "^3.357.0",
-    "@aws-sdk/signature-v4": "^3.357.0",
-    "@aws-sdk/types": "^3.357.0"
+    "@aws-crypto/sha256-js": "^5.1.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.427.0",
+    "@aws-sdk/credential-provider-node": "^3.427.0",
+    "@smithy/protocol-http": "^3.0.7",
+    "@smithy/querystring-parser": "^2.0.11",
+    "@smithy/signature-v4": "^2.0.11",
+    "@aws-sdk/types": "^3.425.0"
   },
   "devDependencies": {
     "@tsconfig/node16": "^16.1.0",
